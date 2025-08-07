@@ -1,12 +1,27 @@
 # Qwik City App ⚡️
 
-- [Qwik Docs](https://qwik.dev/)
-- [Discord](https://qwik.dev/chat)
-- [Qwik GitHub](https://github.com/QwikDev/qwik)
-- [@QwikDev](https://twitter.com/QwikDev)
-- [Vite](https://vitejs.dev/)
+## Notes App Frontend (Qwik)
+
+A modern, minimalistic personal notes UI app with authentication, CRUD, search, listing, and category organization.
+
+**Features:**
+- User authentication (login/signup/logout)
+- Create, edit, delete notes
+- Search, filter, and organize notes by category
+- Modern, light-themed layout: top navigation bar, collapsible sidebar, main note content area
+
+**Theming:**
+- Primary: #1976d2
+- Secondary: #424242
+- Accent: #ffc107
+- Light background
+
+**Backend dependency:**  
+This frontend expects a backend (the `notes_database`) to serve `/api/notes` endpoints for listing, creating, updating, and deleting notes.  
+Backend URL should be provided in env config for production. In development (using local dev), you can proxy `/api/notes` to your backend using `vite.config.ts` or a proxy server.
 
 ---
+
 
 ## Project Structure
 
